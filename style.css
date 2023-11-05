@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.card{
+    text-align: center;
+    width: 100%;
+    max-width: 470px;
+    padding: 40px 0 35px;
+    background: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg,#00feba,#5b548a);
+}
+
+.card img {
+    width: 50%;
+    border-radius: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #222;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%; 
+    align-items: center;
+    color:#333; 
+    text-decoration: none;
+    margin: 10px;
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.social-icon img {
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.social-icon p{
+    color: #222;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 0 0;
+    font-weight: bold;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-content h2{
+    color: #333; /* Text color */
+    font-size: 24px; /* Font size */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
