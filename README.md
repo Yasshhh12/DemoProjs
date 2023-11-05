@@ -1,4 +1,4 @@
 # MyTechAdhaar
-Hey just creating this repo for
+Hey!! just tried building 
 <br>
-practice purposes.
+my tech profile card
